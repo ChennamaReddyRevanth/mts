@@ -1,4 +1,4 @@
-const API_URL = process.env.REACT_APP_API_URL;
+const API_URL = process.env.REACT_APP_API_URL || "https://liaqrb91d4.execute-api.ap-southeast-2.amazonaws.com";
 const API_KEY  = process.env.REACT_APP_API_KEY;
 
 // ── Auth helpers ──────────────────────────────────────────────────────────
